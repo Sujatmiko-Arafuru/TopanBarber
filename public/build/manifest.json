@@ -1,0 +1,93 @@
+{
+  "_cinzel-400-normal-C8jUSQqm.woff": {
+    "file": "assets/cinzel-400-normal-C8jUSQqm.woff",
+    "src": "_cinzel-400-normal-C8jUSQqm.woff"
+  },
+  "_cinzel-400-normal-DnUIPmzd.woff2": {
+    "file": "assets/cinzel-400-normal-DnUIPmzd.woff2",
+    "src": "_cinzel-400-normal-DnUIPmzd.woff2"
+  },
+  "_cinzel-500-normal-B-2dbOfA.woff2": {
+    "file": "assets/cinzel-500-normal-B-2dbOfA.woff2",
+    "src": "_cinzel-500-normal-B-2dbOfA.woff2"
+  },
+  "_cinzel-500-normal-DMNTwV-V.woff": {
+    "file": "assets/cinzel-500-normal-DMNTwV-V.woff",
+    "src": "_cinzel-500-normal-DMNTwV-V.woff"
+  },
+  "_cinzel-600-normal-CH_LB4su.woff": {
+    "file": "assets/cinzel-600-normal-CH_LB4su.woff",
+    "src": "_cinzel-600-normal-CH_LB4su.woff"
+  },
+  "_cinzel-600-normal-Dd5YO2UX.woff2": {
+    "file": "assets/cinzel-600-normal-Dd5YO2UX.woff2",
+    "src": "_cinzel-600-normal-Dd5YO2UX.woff2"
+  },
+  "_cinzel-700-normal-C-gK7hA8.woff": {
+    "file": "assets/cinzel-700-normal-C-gK7hA8.woff",
+    "src": "_cinzel-700-normal-C-gK7hA8.woff"
+  },
+  "_cinzel-700-normal-Dkw14w9r.woff2": {
+    "file": "assets/cinzel-700-normal-Dkw14w9r.woff2",
+    "src": "_cinzel-700-normal-Dkw14w9r.woff2"
+  },
+  "_fonts-BaBJZQgF.css": {
+    "file": "assets/fonts-BaBJZQgF.css",
+    "src": "_fonts-BaBJZQgF.css"
+  },
+  "_outfit-300-normal-AWLfuCom.woff": {
+    "file": "assets/outfit-300-normal-AWLfuCom.woff",
+    "src": "_outfit-300-normal-AWLfuCom.woff"
+  },
+  "_outfit-300-normal-CRYTwY6m.woff2": {
+    "file": "assets/outfit-300-normal-CRYTwY6m.woff2",
+    "src": "_outfit-300-normal-CRYTwY6m.woff2"
+  },
+  "_outfit-400-normal-BGsTXAXT.woff2": {
+    "file": "assets/outfit-400-normal-BGsTXAXT.woff2",
+    "src": "_outfit-400-normal-BGsTXAXT.woff2"
+  },
+  "_outfit-400-normal-DMwTpYkH.woff": {
+    "file": "assets/outfit-400-normal-DMwTpYkH.woff",
+    "src": "_outfit-400-normal-DMwTpYkH.woff"
+  },
+  "_outfit-500-normal-ClnHRwRh.woff": {
+    "file": "assets/outfit-500-normal-ClnHRwRh.woff",
+    "src": "_outfit-500-normal-ClnHRwRh.woff"
+  },
+  "_outfit-500-normal-DKnIMDSk.woff2": {
+    "file": "assets/outfit-500-normal-DKnIMDSk.woff2",
+    "src": "_outfit-500-normal-DKnIMDSk.woff2"
+  },
+  "_outfit-600-normal-B7SfZ07L.woff2": {
+    "file": "assets/outfit-600-normal-B7SfZ07L.woff2",
+    "src": "_outfit-600-normal-B7SfZ07L.woff2"
+  },
+  "_outfit-600-normal-BEfTtDA7.woff": {
+    "file": "assets/outfit-600-normal-BEfTtDA7.woff",
+    "src": "_outfit-600-normal-BEfTtDA7.woff"
+  },
+  "_outfit-700-normal-Cu9v6i1X.woff2": {
+    "file": "assets/outfit-700-normal-Cu9v6i1X.woff2",
+    "src": "_outfit-700-normal-Cu9v6i1X.woff2"
+  },
+  "_outfit-700-normal-D4itBLBr.woff": {
+    "file": "assets/outfit-700-normal-D4itBLBr.woff",
+    "src": "_outfit-700-normal-D4itBLBr.woff"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DF6Mn8Hd.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BG0yBOh3.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
