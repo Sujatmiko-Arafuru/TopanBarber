@@ -30,14 +30,21 @@ $overrides = [
     'APP_ENV' => 'production',
     'LOG_CHANNEL' => 'stderr',
     'LOG_STACK' => 'stderr',
-    'SESSION_DRIVER' => 'cookie',
+    'SESSION_DRIVER' => 'array',
     'CACHE_STORE' => 'array',
     'CACHE_DRIVER' => 'array',
     'QUEUE_CONNECTION' => 'sync',
     'VIEW_COMPILED_PATH' => $root.'/views',
     'DB_CONNECTION' => 'sqlite',
     'DB_DATABASE' => $sqlite,
+    'APP_MAINTENANCE_DRIVER' => 'file',
+    'APP_MAINTENANCE_STORE' => 'array',
 ];
+
+$currentKey = (string) (getenv('APP_KEY') ?: ($_ENV['APP_KEY'] ?? ''));
+if ($currentKey === '') {
+    $overrides['APP_KEY'] = 'base64:'.base64_encode(str_repeat('T', 32));
+}
 
 foreach ($overrides as $key => $value) {
     putenv($key.'='.$value);

@@ -11,8 +11,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="Topan Barber — mobile barbershop di Uluwatu & Jimbaran, Bali. Potong rambut home service ke villa, hotel, atau rumah Anda.">
     <title>Topan Barber · Mobile Barbershop Uluwatu & Jimbaran</title>
-    @fonts
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @if (file_exists(public_path('hot')))
+        @fonts
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @else
+        <link rel="stylesheet" href="{{ asset('build/assets/fonts-BaBJZQgF.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/assets/app-DF6Mn8Hd.css') }}">
+        <script type="module" src="{{ asset('build/assets/app-BG0yBOh3.js') }}"></script>
+    @endif
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%23080808' width='32' height='32'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='16' fill='%23c9a227'%3ET%3C/text%3E%3C/svg%3E">
 </head>
 <body class="overflow-x-hidden">
